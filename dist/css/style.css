@@ -2,12 +2,15 @@
     box-sizing: border-box;
 }
 body{
-    padding: 10;
     margin: 100px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     background-color: darkslateblue;
+}
+.pagecontainer {
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
+    width: 1100px;
+    margin: auto;
 }
 .tabsfirstrowcontainer {
     /* border: 1px solid black; */
@@ -19,12 +22,12 @@ body{
 }
 .tablogo {
     width: 300px;
-    margin: 20px;
     height: auto;
     display: flex;
     flex-wrap:wrap;
     /* border: 1px solid white; */
     align-items:center;
+    margin: 20px;
 }
 .tabscontent {
     width: 300px;
@@ -47,5 +50,13 @@ body{
     height: 250px;
 }
 .text {
-    margin: 20px;
+    padding: 20px;
+    height: 300px;
+}
+.readmelink {
+}
+.readmelink a {
+vertical-align: bottom;
+    padding: 20px;
+    text-decoration: none;
 }
